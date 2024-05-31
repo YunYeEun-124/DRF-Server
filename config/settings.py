@@ -30,8 +30,8 @@ DEBUG = True
 ALLOWED_HOSTS = [
     'http://127.0.0.1:8000',
     '127.0.0.1',
-    #배포된 백엔드 주소
-    'http://port-0-drf-server-eu1k2lllcfh9do.sel3.cloudtype.app',
+    #배포된 백엔드 호스트
+    'port-0-drf-server-eu1k2lllcfh9do.sel3.cloudtype.app',
 ]
 
 # CORS 설정
@@ -40,7 +40,7 @@ CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
     'http://127.0.0.1:8000',
     #배포된 백엔드 주소
-    'http://port-0-drf-server-eu1k2lllcfh9do.sel3.cloudtype.app',
+    'https://port-0-drf-server-eu1k2lllcfh9do.sel3.cloudtype.app',
 ]
 
 # CSRF 설정
@@ -48,7 +48,7 @@ CSRF_TRUSTED_ORIGINS = [
     'http://localhost:3000',
     'http://127.0.0.1:8000',
     #배포된 백엔드 주소
-    'http://port-0-drf-server-eu1k2lllcfh9do.sel3.cloudtype.app',
+    'https://port-0-drf-server-eu1k2lllcfh9do.sel3.cloudtype.app',
 ]
 
 
